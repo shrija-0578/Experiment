@@ -18,7 +18,7 @@
 <body>
     
 <table border="2"  style>
-    <caption >Collage Timetable- CSE Department</caption> 
+    <caption style="background-color: #bcecdc; color: rgb(51, 2, 73);font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Collage Timetable- CSE Department</caption> 
     <tr>
         <th>Day\Time</th>
         <th>9:00-10:00</th>
