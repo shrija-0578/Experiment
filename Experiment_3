@@ -3,7 +3,7 @@
     
     <title>Experiment 1</title>
         <style>
-        
+        body{background-color: bisque;}
         table, th, td {
         border: 2px solid bisque;
         border-collapse: collapse;
