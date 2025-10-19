@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    
+    <title> Simple News Website</title>
+</head>
+<body>
+    <p style="font-size: 50%;">10/3/25, 9:15 AM <p style="text-align: center;font-size: 50%;"> Simple News Websit</p></pp>
+    <!-- <h6 style="text-align: center;"> Simple News Websit</h6> -->
+    <h1 style="text-align: center;">Global Daily News</h1>
+    <P style="text-align: center;"> Your Trusted Source for Latest Update</P>
+    <hr>
+    <hr>
+    <p style="font-size: 75%;"> World News<br> <br>Today’s top headline: Global leaders meet to discuss climate change initiatives.</p>
+    <img src="exp2_pic1.png" alt="bbc logo" height="300" width="500">
+    <br>
+    <a href="https://www.bbc.com/news"> Read more on BBC</a>
+    
+    <h3>Sports Update</h3>
+    <p style="font-size: 75%;">Highlights of yesterday’s football match with thrilling last-minute goals!</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aqz-KE-bpKQ?si=maWqZewqmTCknABo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>Youtube vedio link</iframe>
+
+    <h3> Entertainment Buzz</h3>
+    <p style="font-size: 75%;">New movie trailer released today. Fans are excited!</p>
+    <video height="300" width="500" controls>
+            <source src="vedio_1" type="video/mp4">
+            your brower doesnt support
+         </video>
+         <hr>
+
+    <h3> News Podcast</h3>
+    <p style="font-size: 75%;"> Listen to today’s top headlines</p>
+
+    <h3> Contact Us</h3>
+    <p style="font-size: 75%;">Email: info@globalnews.com<br><br> &copy; 2025 Global Daily New</p>
+
+</body>
+
+
+
+ 
