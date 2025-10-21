@@ -21,7 +21,7 @@
         <select id="room" name="room">
             <option value="single">Single Room</option>
             <option value="double">Double Room</option>
-            <option value="perimeum">perimeum Room</option>
+            <option value="primeum">primeum Room</option>
         </select><br>
         <label for="cin">check in date:</label>
         <input type="date" id="cin" name="cin"><br>
