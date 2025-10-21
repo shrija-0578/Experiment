@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head >
+    
+    <title>Experiment 4</title>
+    
+</head>
+<body>
+    
+    <div style="border: 2px solid black;text-align: center;padding: 3px;">
+    <h2>Hotel Room Booking Form</h2>
+    <form >
+        <label for="fname">Full name:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br>
+        <label for="phone">Phone:</label>
+        <input type="number" id="phone" name="phone"><br>
+        <label for="nog">Number of Guests:</label>
+        <input type="nog" id="nog" name="nog"><br>
+        
+        <label for="Request">Special Request:</label><br>
+        <input type="Request" id="Request" name="Request"><br>
+
+
+    </form>
+    </div>
+</body>
