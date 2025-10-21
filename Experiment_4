@@ -17,11 +17,24 @@
         <input type="number" id="phone" name="phone"><br>
         <label for="nog">Number of Guests:</label>
         <input type="nog" id="nog" name="nog"><br>
-        
+        <lable for="room">Room Type:</lable>
+        <select id="room" name="room">
+            <option value="single">Single Room</option>
+            <option value="double">Double Room</option>
+            <option value="perimeum">perimeum Room</option>
+        </select><br>
+        <label for="cin">check in date:</label>
+        <input type="date" id="cin" name="cin"><br>
+        <label for="cout">check out date:</label>
+        <input type="date" id="cout" name="cout"><br>
         <label for="Request">Special Request:</label><br>
-        <input type="Request" id="Request" name="Request"><br>
+        <textarea name="Request" rows="5" cols="30"> </textarea><br>
+        <input type="submit" value="Book Now">
+        <input type="reset" value="Reset form">
+        
 
 
     </form>
     </div>
 </body>
+</html>
