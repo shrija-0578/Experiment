@@ -9,7 +9,7 @@
     <h1 style="text-align: center;">Global Daily News</h1>
     <P style="text-align: center;"> Your Trusted Source for Latest Update</P>
     <hr>
-    <p><a href="#World">World</a>|<a href="#Sports">Sports</a>|<a href="#Entertainment">Entertainment</a>|<a href="#Podcast">Podcast</a>|<a href="#contact">Contact Us</a></p>
+    <p style="text-align: center;"><a href="#World">World</a>|<a href="#Sports">Sports</a>|<a href="#Entertainment">Entertainment</a>|<a href="#Podcast">Podcast</a>|<a href="#contact">Contact Us</a></p>
     <hr>
 
 
