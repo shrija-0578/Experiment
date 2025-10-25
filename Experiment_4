@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Experiment 4</title>
     <style>
-        .sec{
+        #sec{
             border: 2px solid black;
             padding: 3px;
             display:inline-block;
@@ -12,7 +12,7 @@
             text-align: center;
             
         }
-         body {
+        body {
             display: flex;
             justify-content: center; /* horizontally center */
             align-items: center;
@@ -22,7 +22,7 @@
 </head>
 <body >
      <div></div>
-    <div class="sec">
+    <div id="sec">
     <h2>Hotel Room Booking Form</h2>
     <form  action="#" method="post"> 
         <fieldset>
