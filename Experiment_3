@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <head >
     
-    <title>Experiment 2</title>
-        <style>
+    <title>Experiment 3</title>
+        <!-- <style>
         body{background-color: bisque;}
         table, th, td {
         border: 2px solid bisque;
@@ -12,13 +12,14 @@
         th, td {
         background-color: #deb8f0;
         }
-    </style>
+    </style> -->
 
 </head>
 <body>
     
 <table border="2"  style>
-    <caption style="background-color: #bcecdc; color: rgb(51, 2, 73);font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Collage Timetable- CSE Department</caption> 
+    <!-- <caption style="background-color: #bcecdc; color: rgb(51, 2, 73);font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Collage Timetable- CSE Department</caption>  -->
+     <caption>Collage Timetable- CSE Department</caption> 
     <tr>
         <th>Day\Time</th>
         <th>9:00-10:00</th>
