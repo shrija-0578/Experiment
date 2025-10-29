@@ -21,7 +21,7 @@
     
 </head>
 <body >
-     <div></div>
+    
     <div id="sec">
     <h2>Hotel Room Booking Form</h2>
     <form  action="#" method="post"> 
