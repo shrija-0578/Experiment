@@ -12,7 +12,7 @@
         <label for="email">Email:</label>
         <input type="text" id="email" name="email" placeholder="enter yur valid email adress"><br>
         <label for="Passsword">Passsword:</label>
-        <input type="number" id="Passsword" name="Passsword" placeholder="enter Passsword"><br>
+        <input type="password" id="Passsword" name="Passsword" placeholder="enter Passsword"><br>
 
         <p>Gender
         <input type="radio" id="gender" name="gender" value="female">
