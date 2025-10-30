@@ -6,7 +6,7 @@
     <title> Simple News Website</title>
 </head>
 <body>
-    <p style="font-size: 50%;">10/30/25,4:05AM <p style="text-align: center;font-size: 50%;"> Simple News Websit</p></p>
+    <p style="font-size: 50%;">10/30/25,4:25AM <p style="text-align: center;font-size: 50%;"> Simple News Websit</p></p>
     <h1 style="text-align: center;">Global Daily News</h1>
     <P style="text-align: center;"> Your Trusted Source for Latest Update</P>
 
@@ -21,7 +21,40 @@
     
     
     
+    <h3 id="Sports">Sports Update</h3>
+    <p style="font-size: 85%;">Highlights of yesterday’s football match with thrilling last-minute goals!</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aqz-KE-bpKQ?si=maWqZewqmTCknABo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>Youtube vedio link</iframe>
+
+
+
+
     
+
+
+    <hr>
+    <h3 id="Entertainment"> Entertainment Buzz</h3>
+    <p style="font-size: 85%;">New movie trailer released today. Fans are excited!</p>
+    <video height="300" width="500" controls>
+            <source src="vedio_1" type="video/mp4">
+            your brower doesnt support
+    </video>
+    <hr>
+
+
+
+    <h3 id="Podcast"> News Podcast</h3>
+    <p style="font-size: 85%;"> Listen to today’s top headlines</p>
+    <audio controls>
+      <source src="audio_1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <hr>
+
+
+
+
+    <h3 id="contact"> Contact Us</h3>
+    <p style="font-size: 85%;">Email: info@globalnews.com<br><br> &copy; 2025 Global Daily News</p>
     
 </body>
 </html>
