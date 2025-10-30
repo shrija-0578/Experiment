@@ -17,7 +17,7 @@
 </head>
 <body>
     
-<table border="2"  style>
+<table border="2" align="center" cellspacing="0">
     <!-- <caption style="background-color: #bcecdc; color: rgb(51, 2, 73);font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Collage Timetable- CSE Department</caption>  -->
      <caption>Collage Timetable- CSE Department</caption> 
     <tr>
