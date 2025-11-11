@@ -1,0 +1,62 @@
+body{
+    /* display: flex;
+    align-items: center; 
+    justify-content: center; */
+    margin: 20px auto;
+    background-color: rgb(203, 205, 205);
+    margin: 20px ;
+
+}
+h1{
+    text-align: center;
+    font-size: 300%;
+
+}
+.prod_card{
+    margin: 0px auto;
+    width:480px;
+    padding:40px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(33, 54, 0) 3px; 
+    border-radius: 5%;
+    box-sizing: border-box;
+    padding: 30px ;
+    align-items: center;
+    
+}
+.prod_card h2{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 200%;
+    margin: 10px auto;
+}
+.prod_card p{
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(117, 117, 117);
+    
+}
+#price{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: red;
+    margin: 10px 0;
+    
+}
+button{
+    display: block;
+    margin: 10px auto;;
+    background-color: blue;
+    color: white;
+    border-radius: 5%;
+    text-align: center;
+    height: 70px;
+    width: 130px;
+    font-size: larger;
+}
+button:hover{
+    background-color: rgb(7, 7, 128);
+}
