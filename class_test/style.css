@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+.example {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+}
+
+/* Float Boxes */
+.box {
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+/* Box Colors */
+.red { background-color: #e74c3c; }
+.blue { background-color: #3498db; }
+.green { background-color: #27ae60; }
+
+/* Paragraph beside floated elements */
+p {
+    background-color: #f2f2f2;
+    padding: 8px;
+}
+
+/* Clear property */
+.clear {
+    clear: both;
+}
