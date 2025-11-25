@@ -6,3 +6,14 @@
     
 
 }
+.card
+{
+    display: inline-block;
+    text-align: center;
+    border: solid blue 2px;
+    box-shadow: 2px;
+    padding: 20px 40px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    box-shadow: 5px 3px 2px 1px rgb(0 0 0 / 20%)
+}
