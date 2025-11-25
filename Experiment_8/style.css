@@ -17,3 +17,17 @@
     border-radius: 5px;
     box-shadow: 5px 3px 2px 1px rgb(0 0 0 / 20%)
 }
+.id_logo{
+    background-color: rgb(35, 101, 224);
+    color: white;
+    border-radius: 50%;
+    padding: 3px;
+    border-radius: 50%;
+    width: 40px;   /* same value */
+    height: 40px;  /* same value */
+    display: flex;
+     justify-content: center; 
+    align-items: center;
+    font-weight: bold;
+    margin: auto;
+}
