@@ -48,3 +48,15 @@ body{
 .heading{
     font-family: Arial, Helvetica, sans-serif;
 }
+.red{
+    background-color: rgb(252, 22, 22);
+}
+.blue{
+    background-color: rgb(22, 37, 252);
+}
+.green{
+    background-color: rgb(22, 252, 37);
+}
+.pink{
+    background-color: rgb(252, 22, 164);
+}
