@@ -11,3 +11,10 @@ body{
     margin: 5px 0;
     text-decoration: none;
 }
+.inline{
+    display: inline;
+    background-color: rgb(6, 100, 42);
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
