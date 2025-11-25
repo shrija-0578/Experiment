@@ -18,3 +18,13 @@ body{
     padding: 5px;
     text-decoration: none;
 }
+
+.inline_block{
+    display: inline-block;
+    color: white;
+    height: 50px;
+    width: 120px;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+}
