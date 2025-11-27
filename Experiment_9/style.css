@@ -49,4 +49,9 @@
 .btn:hover {
     background-color: #0056b3;
 }
+#heading
+{
+    font-size: 300%;
+    text-align: center;
 
+}
