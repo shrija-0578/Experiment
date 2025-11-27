@@ -1,5 +1,6 @@
 .box{
     display: flex;
+    /* background-color: antiquewhite; */
     border: solid black 5px;
     margin: 20px;
     justify-content: space-around;
@@ -11,16 +12,18 @@
     display: inline-block;
     padding: 20px 40px;
     margin: 20px 0px;
+    gap: 40px;
     font-size: 150%;
     text-align: center;
     border: solid blue 2px;
-    box-shadow: 2px;
+    background-color: azure;
     border-radius: 5px;
-    box-shadow: 5px 3px 2px 1px rgb(0 0 0 / 20%)
+    box-shadow: 5px 5px 4px rgb(0 0 0 / 20%)
+    /* h-offse v-offset  blur spread*/
 }
 .id_logo{
     display: flex;
-    display: flex;
+    
     justify-content: center; 
     align-items: center;
     font-weight: bold;
