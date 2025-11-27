@@ -11,4 +11,8 @@
     border-radius: 5px;
     box-shadow: 5px 5px 4px rgb(0 0 0 / 20%)
 }
-
+.header
+{
+    font-weight: bold;
+    font-size: larger;
+}
