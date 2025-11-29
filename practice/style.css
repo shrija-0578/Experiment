@@ -20,5 +20,7 @@
   padding: 10px;
   font-size: 30px;
 }
-
+/* justify-content - Aligns the grid content when it does not use all available space on the main-axis (horizontally)
+align-content - Aligns the grid content when it does not use all available space on the cross-axis (vertically)
+place-content - Shorthand property for align-content and justify-content */
 
