@@ -9,7 +9,7 @@
     row-gap: 10px;
     background-color: dodgerblue;
     padding: 10px;
-    
+    /* justify-content: center;                    ncl */
 
 }
 .cont div
@@ -19,8 +19,13 @@
   border: 1px solid black;
   padding: 10px;
   font-size: 30px;
+  text-align: center;
 }
 /* justify-content - Aligns the grid content when it does not use all available space on the main-axis (horizontally)
 align-content - Aligns the grid content when it does not use all available space on the cross-axis (vertically)
 place-content - Shorthand property for align-content and justify-content */
+.item1 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
 
