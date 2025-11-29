@@ -1,8 +1,16 @@
 .cont
 {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    border: solid black;
+    /* grid-template-columns: 1fr 2fr 2fr; */
+    grid-template-columns: (3,1fr);
+    /* auto fil method? repeat(auto-fit) */
+    column-gap: 20px;
+    /* border: solid black; */
     text-align: center;
+    
 
+}
+.cont div
+{
+    border: solid black;
 }
