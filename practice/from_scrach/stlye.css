@@ -53,3 +53,75 @@ body
     height: 40px;
     width: 40px;
 }
+#box4
+{
+    display: inline-block;
+    position: fixed;
+    background-color: cyan;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    right: 200px;
+    /* out of doc flow */
+    z-index: 1;
+}
+
+#box5
+{
+    display: inline-block;
+    position: absolute;
+    background-color: rgb(162, 255, 11);
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    right: 200px;
+    /* out of doc flow */
+    z-index: 1;
+}
+
+/* #box6
+{
+    display: inline-block;
+    position: sticky;
+    background-color: rgb(255, 56, 242);
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    right: 250px;
+    /* out of doc flow */
+    /* z-index: 1;    */
+
+.flex_cont
+{
+    display: flex;
+    height: 400px;
+    width: 500px;
+    border: solid rgb(255, 255, 255) 3px;
+    flex-direction: row;
+    
+}
+
+.box6
+{
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+    background-color: rgb(210, 8, 8);
+}
+.box7
+{
+    height: 100px;
+    width: 350px;
+    display: inline-block;
+    background-color: rgb(8, 28, 210);
+}
+.box8
+{
+    height: 100px;
+    width: 90px;
+    display: inline-block;
+    background-color: rgb(52, 210, 8);
+}
