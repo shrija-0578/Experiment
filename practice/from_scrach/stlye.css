@@ -35,3 +35,21 @@ body
     width: 200px;
     /* inline me top bottom margin nahi hote or size bhi set nahi hoti */
 }
+#box1{
+    display: inline-block;
+    background-color: rgb(251, 230, 0,0.25);
+    height: 40px;
+    width: 40px;
+}
+#box2{
+    display: inline-block;
+    background-color: rgb(251, 230, 0,0.50);
+    height: 40px;
+    width: 40px;
+}
+#box3{
+    display: inline-block;
+    background-color: rgb(251, 230, 0,0.75);
+    height: 40px;
+    width: 40px;
+}
