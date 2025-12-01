@@ -97,14 +97,17 @@ body
 .flex_cont
 {
     display: flex;
-    height: 400px;
+    height: 800px;
     width: 500px;
     border: solid rgb(255, 255, 255) 3px;
     flex-direction: row;
     /* row/column/reverse-row/reverse-column */
-    justify-content: space-between;
+    justify-content: center;
     /* horizontal alinement */
     padding: 3px ;
+    align-items: center;
+    /* cross axixs from the center of each elments */
+    flex-wrap: wrap;
 }
 
 .box6
@@ -112,14 +115,14 @@ body
     margin: 3px;
     display: inline-block;
     height: 100px;
-    width: 300px;
+    width: 200px;
     background-color: rgb(210, 8, 8);
 }
 .box7
 {
     margin: 3px;
     height: 100px;
-    width: 350px;
+    width: 300px;
     display: inline-block;
     background-color: rgb(8, 28, 210);
 }
