@@ -25,3 +25,13 @@ body
     width: 400px;
     /* inline me top bottom margin nahi hote or size bhi set nahi hoti */
 }
+#inline-block
+{
+    display: inline-block;
+    background-color: blueviolet;
+    color: white;
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    /* inline me top bottom margin nahi hote or size bhi set nahi hoti */
+}
