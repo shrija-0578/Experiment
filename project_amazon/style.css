@@ -17,3 +17,13 @@
     background-color: #ff920d;
     
 }
+#nav-logo
+{
+    
+    background-image: url(logoe.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 9%;
+    margin: 0px 1px;
+    padding: 0px 8px 0px 6px;
+}
