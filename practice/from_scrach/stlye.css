@@ -108,6 +108,8 @@ body
     align-items: center;
     /* cross axixs from the center of each elments */
     flex-wrap: wrap;
+    /* align-content: center;
+    all content in center of box */
 }
 
 .box6
@@ -133,4 +135,9 @@ body
     width: 90px;
     display: inline-block;
     background-color: rgb(52, 210, 8);
+    align-self: end;
+    /* item alinement 
+    flex-grow and flex-shrink other props tells ratio of shrink and grow while 
+    adjusting
+    */
 }
