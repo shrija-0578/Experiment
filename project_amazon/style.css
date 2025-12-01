@@ -27,3 +27,24 @@
     margin: 0px 1px;
     padding: 0px 8px 0px 6px;
 }
+#nav-location
+{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 7%;
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px 0px 9px;
+    color: white;
+    font-size: 120%;
+}
+#nav-location p
+{
+    padding: auto ;
+    align-self: center; 
+}
+#nav-location i
+{
+   align-self: center;
+   font-size: 130%; 
+}
