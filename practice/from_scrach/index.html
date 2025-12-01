@@ -6,6 +6,10 @@
     <title>CSS Level_1</title>
     <link rel="stylesheet" href="stlye.css">
     <style>
+        .div
+        {
+            background-color: aliceblue;
+        }
         /* class selector */
         .s1
         {
@@ -28,6 +32,11 @@
             color: rgb(54, 0, 45);
                 display: inline-block;
         }
+        /*decendent selector*/
+        div p{
+            color: blue;
+        }
+
     </style>
 </head>
 <body>
@@ -36,5 +45,6 @@
     <h1 class="s2">hello everyone(external sttle)</h1>
     <h3>its element selector</h3>
     <h3 id="unique">id is unque and prefered</h3>
+    <div><p>this is paragraph in div container</p></div>
 </body>
 </html>
