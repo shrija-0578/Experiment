@@ -37,7 +37,7 @@
     height: 100px;  /* same value */
     
 }
-.id_logo:hover{
+.card:hover .id_logo{
     background-color: blue;
     color: white;
 }
