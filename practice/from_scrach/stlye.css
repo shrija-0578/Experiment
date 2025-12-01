@@ -101,11 +101,15 @@ body
     width: 500px;
     border: solid rgb(255, 255, 255) 3px;
     flex-direction: row;
-    
+    /* row/column/reverse-row/reverse-column */
+    justify-content: space-between;
+    /* horizontal alinement */
+    padding: 3px ;
 }
 
 .box6
 {
+    margin: 3px;
     display: inline-block;
     height: 100px;
     width: 300px;
@@ -113,6 +117,7 @@ body
 }
 .box7
 {
+    margin: 3px;
     height: 100px;
     width: 350px;
     display: inline-block;
@@ -120,6 +125,7 @@ body
 }
 .box8
 {
+    margin: 3px;
     height: 100px;
     width: 90px;
     display: inline-block;
