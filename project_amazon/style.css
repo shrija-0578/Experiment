@@ -154,3 +154,22 @@
 #nav-account:hover #dropdown-content {display: block;}
 #nav-account:hover #btn { border: solid white 2px;}
 
+#nav-return_order
+{
+    width: 8%;
+    text-align: center;
+}
+#nav-return_order #btn
+{
+    background-color: #ff920d;
+    color: white;
+    border: none;
+    padding: 4px 1px;
+    width: 100%;
+    height: 80%;
+    border: none;
+    margin: auto;
+    font-size: 140%;
+}
+#nav-return_order:hover{ border: solid white 2px;}
+
