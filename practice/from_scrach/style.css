@@ -1,0 +1,143 @@
+.s2
+{
+    color: rgb(255, 221, 0);
+}
+body
+{
+    background-color: rgb(0, 0, 0);
+}
+.boxmd{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(79, 69, 55);
+    border: dashed yellow 4px;
+    padding: 10px 20px 30px 40px;
+    /* top right bottom left */
+    margin: 0px 20px 50px 20px;
+}
+#inline
+{
+    display: inline;
+    background-color: blueviolet;
+    color: white;
+    margin: 30px;
+    height: 400px;
+    width: 400px;
+    /* inline me top bottom margin nahi hote or size bhi set nahi hoti */
+}
+#inline-block
+{
+    display: inline-block;
+    background-color: blueviolet;
+    color: white;
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    /* inline me top bottom margin nahi hote or size bhi set nahi hoti */
+}
+#box1{
+    display: inline-block;
+    background-color: rgb(251, 230, 0,0.25);
+    height: 40px;
+    width: 40px;
+}
+#box2{
+    display: inline-block;
+    background-color: rgb(251, 230, 0,0.50);
+    height: 40px;
+    width: 40px;
+}
+#box3{
+    display: inline-block;
+    background-color: rgb(251, 230, 0,0.75);
+    height: 40px;
+    width: 40px;
+}
+#box4
+{
+    display: inline-block;
+    position: fixed;
+    background-color: cyan;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    right: 200px;
+    /* out of doc flow */
+    z-index: 1;
+}
+
+#box5
+{
+    display: inline-block;
+    position: absolute;
+    background-color: rgb(162, 255, 11);
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    right: 200px;
+    /* out of doc flow */
+    z-index: 1;
+}
+
+/* #box6
+{
+    display: inline-block;
+    position: sticky;
+    background-color: rgb(255, 56, 242);
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    right: 250px;
+    /* out of doc flow */
+    /* z-index: 1;    */
+
+.flex_cont
+{
+    display: flex;
+    height: 800px;
+    width: 500px;
+    border: solid rgb(255, 255, 255) 3px;
+    flex-direction: row;
+    /* row/column/reverse-row/reverse-column */
+    justify-content: center;
+    /* horizontal alinement */
+    padding: 3px ;
+    align-items: center;
+    /* cross axixs from the center of each elments */
+    flex-wrap: wrap;
+    /* align-content: center;
+    all content in center of box */
+}
+
+.box6
+{
+    margin: 3px;
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(210, 8, 8);
+}
+.box7
+{
+    margin: 3px;
+    height: 100px;
+    width: 300px;
+    display: inline-block;
+    background-color: rgb(8, 28, 210);
+}
+.box8
+{
+    margin: 3px;
+    height: 100px;
+    width: 90px;
+    display: inline-block;
+    background-color: rgb(52, 210, 8);
+    align-self: end;
+    /* item alinement 
+    flex-grow and flex-shrink other props tells ratio of shrink and grow while 
+    adjusting
+    */
+}
