@@ -29,3 +29,29 @@ place-content - Shorthand property for align-content and justify-content */
   grid-column-end: 4;
 }
 
+.box_1
+{
+  
+
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border-radius: 5%;
+  background-color: blue  ;
+  transform: skew(20deg);
+}
+.box_2
+{
+  
+
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border-radius: 5%;
+  background-color: blue  ;
+  transform: skew(-20deg);
+}
+.box_1:hover
+{
+  transform: scale(1.5);
+}
