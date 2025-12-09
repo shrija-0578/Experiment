@@ -55,3 +55,39 @@ place-content - Shorthand property for align-content and justify-content */
 {
   transform: scale(1.5);
 }
+.box
+{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5%;
+
+}
+/* translate property */
+.translate:hover
+{
+  /* right and down */
+  transform:translate(80px,30px);
+}
+/* rotate */
+.rotate:hover
+{
+  transform:rotate(45deg);
+}
+/* change of size */
+.scale:hover
+{
+  transform: scale(1.5);
+}
+/* skewness */
+.skew:hover{
+  transform: skew(20deg);
+}
+/* combined effect */
+.combo:hover
+{
+  transform: translate(500px,0px) scale(2.5) skew(20deg);
+
+}
