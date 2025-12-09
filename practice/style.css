@@ -91,6 +91,28 @@ place-content - Shorthand property for align-content and justify-content */
   transform: translate(500px,0px) scale(2.5) skew(20deg);
 
 }
+.all
+{
+  transition-property:all ;
+  /* to add duration */
+  transition-duration: 2s;
+  /* timing function */
+  transition-timing-function: steps(3);
+  /* delay */
+  transition-delay: 1s;
+  
+  /* or use 
+    transition:all 2s steps(3) 1s;
+    |prop|duration|timing-fun|delay|
+  */
+
+}
+.all:hover
+{
+  background-color: darkblue;
+  color: white;
+  transform: rotate(45deg);
+}
 @media(max-width: 600px)
 {
   .media{
