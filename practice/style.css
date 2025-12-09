@@ -91,3 +91,10 @@ place-content - Shorthand property for align-content and justify-content */
   transform: translate(500px,0px) scale(2.5) skew(20deg);
 
 }
+@media(max-width: 600px)
+{
+  .media{
+    background-color: blue;
+
+  }
+}
