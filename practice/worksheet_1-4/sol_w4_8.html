@@ -1,0 +1,58 @@
+<!-- Goal: Make your design responsive.
+Starter HTML:
+<div class="container">
+  <div class="left">Left</div>
+  <div class="right">Right</div>
+</div>
+Tasks:
+.container { display: flex; }
+At max-width: 600px, use media query to make flex-direction: column;
+Add different background colors for mobile and desktop.
+Expected Output:
+Two boxes side by side on desktop, stacked on mobile.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>practice</title>
+
+<style>
+.container {
+  display: flex;
+  background: rgb(190, 173, 230);
+  padding: 20px;
+  gap: 20px;
+}
+
+.left, .right {
+  width: 50%;
+  padding: 40px;
+  font-size: 24px;
+  text-align: center;
+  background: teal;
+  color: white;
+}
+
+@media (max-width: 400px) {
+  .container {
+    flex-direction: column;
+    background: peachpuff;
+  }
+  .left, .right {
+    background: crimson;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+  <div class="left">Left</div>
+  <div class="right">Right</div>
+</div>
+
+</body>
+</html>
