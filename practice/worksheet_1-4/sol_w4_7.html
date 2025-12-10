@@ -1,0 +1,55 @@
+<!-- Goal: Practice px, %, em, rem, vh, vw.
+Starter HTML:
+<h1 class="px">Heading 1</h1>
+<h1 class="rem">Heading 2</h1>
+<div class="box"></div>
+Tasks:
+.px { font-size: 24px; }
+.rem { font-size: 2rem; }
+.box { width: 50%; height: 20vh; background: coral; }
+Try changing html { font-size: 10px; } and see effect on rem units.
+Expected Output:
+Box covers 50% width of screen, text changes with base font size.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Practice</title>
+
+<style>
+html {
+  font-size: 10px;
+}
+/* main size hi change kar diya */
+
+
+.px {
+  font-size: 24px;
+  color: darkblue;
+}
+
+.rem {
+  font-size: 2rem;
+  color: darkred;
+}
+
+.box {
+    /* responsive */
+  width: 50%;
+  height: 20vh;
+  /* 1vh = 1% of the height of the screen */
+  background: coral;
+  margin-top: 20px;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1 class="px">Heading 1</h1>
+<h1 class="rem">Heading 2</h1>
+
+<div class="box"></div>
