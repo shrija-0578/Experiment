@@ -147,3 +147,22 @@ place-content - Shorthand property for align-content and justify-content */
     background-color: blue;
   }
 }
+.loader
+{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   border: 25px solid rgb(203, 118, 239);
+   border-left: 25px solid rgb(114, 0, 145);
+   /* border-bottom: 25px solid rgb(148, 5, 187);
+   border-right: 25px solid rgb(177, 25, 219); */
+   animation: spin 1s ease-in-out 0s infinite ;
+}
+@keyframes spin{
+  form{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
