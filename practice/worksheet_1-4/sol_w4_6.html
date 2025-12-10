@@ -1,0 +1,65 @@
+<!-- Goal: Learn justify-content, align-items, and flex-direction.
+Starter HTML:
+<div class="flex-container">
+  <div class="box">A</div>
+  <div class="box">B</div>
+  <div class="box">C</div>
+</div>
+Tasks:
+Set .flex-container { display: flex; }
+Add justify-content: center;
+Add align-items: center;
+Try changing flex-direction: column;
+Add gap: 10px;
+Expected Output:
+Boxes are centered and spaced evenly. Direction can switch from row to column.
+ -->
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+        .flex-container
+        {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            /* not woking  along cross axis*/
+            
+
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            color: white;
+            text-align: center;
+            
+        }
+        .a{
+            background-color: rgb(62, 62, 255);
+        }
+        .b
+        {
+            background-color: blueviolet;
+        }
+        .c
+        {
+            background-color: rgb(42, 165, 104);
+        }
+    </style>
+ </head>
+ <body>
+    <div class="flex-container">
+    <div class="box a">A</div>
+    <div class="box b">B</div>
+    <div class="box c">C</div>
+    </div>
+    
+ </body>
+ </html>
