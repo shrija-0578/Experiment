@@ -228,7 +228,7 @@ body
 
 /* ^^^^^^^^^^^^^^^^^^^^^^ meru bar^^^^^^^^^^^^^^^^^^^^^^^ */
 .menu {
-    
+    position: relative;
     background-color: #1f2937;
     padding: 12px 20px;
     width: 100%;
