@@ -117,10 +117,27 @@ body
     flex-direction: row;
     width: 5%;
     height: 100%;
-    background-color: aqua;
     margin: 0px 1px;
     padding: 0px 7px;
 }
+#nav-laguage #logo
+{
+    background-image: url(language_img.png);
+    background-size: cover;
+    width: 40%;
+    height: 30%;
+    margin-top: 30%;
+}
+#nav-laguage #lang
+{
+    font-size: 16px;
+    height: 80%;
+    width: 60%;
+    background-color: #04060f;
+    border: none;
+    color: white;
+}
+#nav-laguage:hover{ border: solid white 2px;}
 
 #nav-account
 {
