@@ -387,3 +387,50 @@ body
 .footer-link:hover {
   text-decoration: underline;
 }
+/* ^^^^^^^^^^^^^^^^^^^^footer^^^^^^^^^^^^^^^^^^^^^^^^ */
+.footer {
+  background-color: #232f3e;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.back-to-top {
+  background-color: #37475a;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+}
+.back-to-top a{
+    text-decoration: none;
+    color: white;
+}
+.back-to-top:hover {
+  background-color: #485769;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 100px;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-col h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-col a {
+  color: #dddddd;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-col a:hover {
+  text-decoration: underline;
+}
