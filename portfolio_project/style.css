@@ -11,3 +11,73 @@ body {
     color: #333;
     line-height: 1.6;
 }
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+.navbar .logo{
+    font-size: 1.5rem;
+}
+.navbar ul li {
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+.navbar ul li:hover { border: solid rgb(2, 10, 48) 2px;}
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Hero Section */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 10%;
+    min-height: 100vh;
+}
+
+.highlight {
+    color: #007bff;
+}
+
+.content h1 {
+    font-size: 4rem;
+}
+
+.image img {
+    width: 500px;
+    border-radius: 50%;
+    border-right: 25px solid #007bff;
+    background-color: #ffe8d6; 
+}
+
+.btn-primary {
+    width: 15vh;
+    height: 5vh;
+    font-size: 1.5rem;
+    background: #007bff;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btn-primary:hover{
+    background-color: #0058b7;
+}
+
+
