@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Report Card</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .report-card {
+            width: 800px;
+            background: white;
+            padding: 40px;
+            border: 1px solid #2c3e50;
+            /* box-shadow: 0 0 20px rgba(0,0,0,0.1); */
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 3px double #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+
+        .school-name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2c3e50;
+            /* text-transform: uppercase; */
+            margin: 0;
+        }
+
+        .student-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .info-column p {
+            margin: 5px 0;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #555;
+            width: 100px;
+            display: inline-block;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        th {
+            background-color: #2c3e50;
+            color: white;
+            padding: 12px;
+            font-size: 13px;
+            text-transform: uppercase;
+        }
+
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .subject-name {
+            text-align: left;
+            font-weight: bold;
+            background-color: #f9f9f9;
+        }
+
+        .total-row {
+            background-color: #eee;
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .signature-box {
+            border-top: 1px solid #000;
+            width: 200px;
+            text-align: center;
+            padding-top: 5px;
+            font-size: 14px;
+        }
+
+        @media print {
+            body { background: none; padding: 0; }
+            .report-card { box-shadow: none; border: 1px solid #000; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="report-card">
+    <div class="header">
+        <h1 class="school-name">GLOBAL INTERNATIONAL ACADMEY</h1>
+        <p>Annual Academic Progress Report | 2025-2026</p>
+    </div>
+
+    <div class="student-info">
+        <div class="info-column">
+            <p><span class="info-label">Student Name:</span> Donal ducky</p>
+            <p><span class="info-label">Roll No:</span> 2026-045</p>
+            <p><span class="info-label">year/Sec:</span> 1st cse27</p>
+        </div>
+        <div class="info-column">
+            <p><span class="info-label">Father's Name:</span> Mr. ducky</p>
+            <p><span class="info-label">Date of Birth:</span> 12/05/2010</p>
+            <p><span class="info-label">Attendance:</span> 94%</p>
+        </div>
+    </div>
+
+    <table>
+        
+            <tr>
+                <th>Subject</th>
+                <th>Mid Term 1 (30)</th>
+                <th>Mid Term 2 (30)</th>
+                <th>End Term (40)</th>
+                <th>Total (100)</th>
+                <th>Grade</th>
+            </tr>
+    
+        
+            <tr>
+                <td class="subject-name">Mathematics</td>
+                <td>28</td>
+                <td>26</td>
+                <td>36</td>
+                <td>90</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td class="subject-name">Mechanics</td>
+                <td>24</td>
+                <td>22</td>
+                <td>32</td>
+                <td>78</td>
+                <td>B+</td>
+            </tr>
+            <tr>
+                <td class="subject-name">DSA</td>
+                <td>29</td>
+                <td>28</td>
+                <td>38</td>
+                <td>95</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td class="subject-name">Web designing</td>
+                <td>20</td>
+                <td>24</td>
+                <td>30</td>
+                <td>74</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td class="subject-name">Electronic</td>
+                <td>30</td>
+                <td>30</td>
+                <td>40</td>
+                <td>100</td>
+                <td>A+</td>
+            </tr>
+            <tr class="total-row">
+                <td colspan="4" style="text-align: right;">Grand Total:</td>
+                <td>437 / 500</td>
+                <td>87.4%</td>
+            </tr>
+    </table>
+
+    <div class="footer">
+        <div class="signature-box">Class Teacher</div>
+        <div class="signature-box">Principal</div>
+        <div class="signature-box">Parent/Guardian</div>
+    </div>
+</div>
+
+</body>
+</html>
