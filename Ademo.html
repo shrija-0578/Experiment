@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(127, 187, 255);
+        }
+        .box{
+        display: flex;
+         display: flex;
+        justify-content: center;     
+        align-items: center;         
+        gap: 10%;  
+        /* border: solid black 5px; */
+        margin: 20px;
+        height: 80vh;
+
+
+        }
+        .card
+        {
+        display: inline-block;
+        padding: 20px 40px;
+        margin: 20px 0px;
+        /* gap: 40px; */
+        font-size: 150%;
+        text-align: center;
+        border: solid blue 2px;
+        background-color: azure;
+        border-radius: 5px;
+        box-shadow: 5px 5px 4px rgb(0 0 0 / 20%)
+        /* h-offse v-offset  blur spread*/
+        }
+        .id_logo{
+        display: flex;
+
+        justify-content: center; 
+        align-items: center;
+        font-weight: bold;
+        margin: auto;
+        background-color: rgb(35, 101, 224);
+        border-radius: 50%;
+        font-size: 100%;
+        color: rgb(151, 139, 139);
+        padding: 3px;
+        width: 100px;    
+        height: 100px;  
+
+        }
+        .card:hover{
+            transform: scale(1.3);
+            box-shadow:  10px 8px 4px rgba(9, 9, 65, 0.5);
+        }
+        .card:hover .id_logo{
+        background-color: blue;
+        color: white;
+        
+        }
+        .text{
+            font-size: 5rem;
+            text-align: center;
+            margin: 20px;
+            color: beige;
+            text-shadow: 4px 6px rgba(17, 1, 72, 0.855);
+        }
+    </style>
+</head>
+<body>
+    <p class="text">Profile card</p>
+    <div class="box">
+        <div class="card">
+            <div class="id_logo">JK</div>
+            <p style="font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight: bolder;">Jeet Kumar</p>
+            <p>B.Tech-CSE<br>roll no.21cs1007<br>1st year</p>
+        </div>
+        <div class="card">
+            <div class="id_logo">AR</div>
+            <p style="font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight: bolder;">Asha Rani</p>
+            <p>B.Tech-IT<br>roll no.21IT1012<br>1st year</p>
+        </div>
+        <div class="card">
+            <div class="id_logo">RK</div>
+            <p style="font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight: bolder;">Rohit Kumar</p>
+            <p>B.Tech-ECE<br>roll no.21EC109<br>1st year</p>
+        </div>
+                
+
+    </div>
+    
+</body>
+</html>

@@ -144,7 +144,7 @@ place-content - Shorthand property for align-content and justify-content */
   }
   100%
   {
-    background-color: blue;
+    background-color: red;
   }
 }
 .loader
