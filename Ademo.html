@@ -10,13 +10,13 @@
         }
         .box{
         display: flex;
-         display: flex;
         justify-content: center;     
         align-items: center;         
         gap: 10%;  
         /* border: solid black 5px; */
-        margin: 20px;
+        margin:  20px;
         height: 80vh;
+        /* border: solid; */
 
 
         }
@@ -60,11 +60,21 @@
         
         }
         .text{
+            display: flex;
+            justify-content: center;
             font-size: 5rem;
             text-align: center;
+            /* border: solid; */
             margin: 20px;
             color: beige;
             text-shadow: 4px 6px rgba(17, 1, 72, 0.855);
+        }
+        @media (max-width: 768px) {
+            .box {
+                flex-direction: column;
+                gap: 20px;
+                height: auto;
+            }
         }
     </style>
 </head>
