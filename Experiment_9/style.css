@@ -91,3 +91,10 @@
 }
 
 
+@media (max-width: 800px) {
+    .box {
+        grid-template-columns: 1fr;   /* single column */
+         gap: 20px;
+         margin: 20px;
+    }
+}
